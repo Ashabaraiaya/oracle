@@ -1,0 +1,14 @@
+1.1 select * from emp12;
+1.2  desc  emp12;
+1.4   select empno from emp12;
+1.5  select ename from emp12;
+1.6  select comm from emp12;
+1.7  select mgr from emp12;
+1.8  select deptno from emp12;
+1.9   select empno,ename,job,mgr from emp12;
+1.10   select ename,mgr from emp12;
+1.11  select job,comm from emp12;
+1.12  select ename,deptno from emp12;
+1.13   select deptno,ename,sal,job from emp12;
+1.14  select deptno,dname from dept12;
+1.15  select grade from salgrade;

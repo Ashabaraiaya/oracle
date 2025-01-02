@@ -1,0 +1,11 @@
+declare
+  2  c_id customer.id%type:=2;
+  3  c_name customer.name%type;
+  4  c_address customer.address%type;
+  5  begin
+  6  select name,address into c_name,c_address from customer where id=c_id;
+  7  dbms_output.put_line('name:'||c_name);
+  8  dbms_output.put_line('address:'||c_address);
+  9  exception
+ 10  when no_data_found when
+ 11  dbms_output.

@@ -1,0 +1,10 @@
+4.1  select * from emp12 order by hiredate desc;
+4.2   select * from emp12 order by hiredate ;
+4.3  select dname,deptno from dept12 where deptno>20;
+4.4  select ename from emp12 where comm>sal;
+4.5  select ename from emp12 where comm>sal;
+4.6  select ename from emp12 where sal between 500 and 1500;
+4.7   select * from emp12 where mgr in(7902,7566,7788);
+4.8   select ename from emp12 where mgr between 7788 and 7092;
+4.9  select ename from emp12 where ename like('s%');
+4.10  select ename from emp12 where ename='scott';

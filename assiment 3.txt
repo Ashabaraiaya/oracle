@@ -1,0 +1,13 @@
+3.1 alter table emp12 rename column ename to asha ;
+3.2  alter table emp12 rename column sal to salary ;
+3.3   alter table emp12 rename column ename to employee_name ;
+        alter table emp12 rename column job to desination ;
+3.4  select employee_name,salary+100 as bonous from emp12 where desination='manager';
+3.5  select employee_name,salary+1000 as bonus,salary-4500 as leave from emp12;
+3.6  select employee_name,salary+100 as b3 from emp12 where employee_name='scott';
+3.7  select employee_name,(((salary+500)-300)/100) as total from emp12;
+3.8  select ename,(sal*(5/100)) as per from emp12;
+3.9   select ename,(sal*(5/100)) as per from emp12 where job='salsmen' or
+      job='salsman';
+3.10   select ename,sal*2 as month from emp12;
+3.11 select ename,sal/30 as month from emp12;

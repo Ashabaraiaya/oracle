@@ -1,0 +1,4 @@
+ create table salgrade
+   (grade numeric(2),
+   losal numeric(4),
+   hisal numeric(4));

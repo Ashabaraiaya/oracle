@@ -1,0 +1,9 @@
+2.1 select ename from emp12 where job='manager';
+2.2 select ename from emp12 where job='president';
+2.3select ename from emp12 where job='manager' or job='clerk';
+2.4 select ename from emp12 where deptno=10 and job='manager';
+2.5  select ename from emp12 where deptno=10;
+2.6  select ename from emp12 where deptno not between 20 and 40 and job!='manager';
+2.7 select ename from emp12 where  job='manager' and deptno=10 or job='analyst';
+2.8  select ename from emp12 where not job='president' and not  job='analyst' and not  job='salsman' and not job='salsmen';
+2.9 select ename from emp12 where  job='clerk' and deptno=10 ;

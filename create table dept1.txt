@@ -1,0 +1,4 @@
+ create table dept12
+    (deptno numeric(2)primary key,
+    dname varchar(14) not null,
+    loc varchar(13));

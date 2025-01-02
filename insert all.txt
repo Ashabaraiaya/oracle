@@ -1,0 +1,6 @@
+insert all
+    into dept12 values(10,'accounting','new yourk')
+   into dept12 values(20,'research','dallas')
+   into dept12 values(30,'sales','chicago')
+   into dept12 values(40,'opeations','boston')
+   select * from dual;

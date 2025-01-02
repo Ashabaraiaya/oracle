@@ -1,0 +1,10 @@
+ create table emp12
+   (empno numeric(4)primary key,
+   ename varchar(10)not null,
+    job varchar(9),
+    mgr numeric(7,2),
+ hiredate date,
+    sal numeric(7,2),
+comm numeric(7,2),
+  deptno numeric(2)not null,
+foreign key (deptno)references dept12(deptno));

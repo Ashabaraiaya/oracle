@@ -1,0 +1,13 @@
+ create table customer
+  2  (id number(2),
+  3  name varchar(5),
+  4  address varchar(10),
+  5  sal number(6));
+
+Table created.
+
+SQL> insert all
+  2  into customer values(11,'asha','rajkot',20000)
+  3  into customer values(12,'alka','rajkot',30000)
+  4  into customer values(13,'ami','rajkot',3800)
+  5  select * from dual;
